@@ -1,0 +1,29 @@
+{
+    "name": "bratiask/own-assets",
+    "description": "Automatic assets publishing for non-versioned data objects",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe", "publish", "assets", "versioned"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Filip Likavčan",
+            "email": "filip@bratia.sk"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/tractorcow/silverstripe-fluent/issues"
+    },
+    "require": {
+        "silverstripe/framework": "^4@dev",
+        "silverstripe/cms": "^4@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "bratiask\\OwnAssets\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
