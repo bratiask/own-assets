@@ -10,5 +10,5 @@ Name: own-assets
 ---
 SilverStripe\ORM\DataObject:
   extensions:
-    - OwnAssetsExtension
+    - bratiask\OwnAssets\Extension\OwnAssetsExtension
 ```
